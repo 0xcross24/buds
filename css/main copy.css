@@ -1,0 +1,208 @@
+body{
+	background-color: #0e0606;
+	font-family: avenir;
+}
+
+
+.container {
+	max-width: 970px;
+}
+
+.header{
+	background-image: url("../img/hero.01.jpg");
+	max-height: 535px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#crew-header{
+	text-transform: uppercase;
+	color: #ec008c;
+	font-weight: 800;
+	margin-top: 40%;
+	font-size: 100px;
+	padding-left: 1%;
+}
+
+.sub-head{
+	margin-top: -18px;
+}
+
+#crew-header-description{
+	padding: 8px 0px 8px 1%;
+	border-top: 0.1px solid lightgrey;
+	border-bottom: 0.1px solid lightgrey;	
+	color: #880c56;
+	font-size: 35px;
+	background-color: #171717;
+}
+
+#copyright{
+	float: right;
+	color: #cbcbcb;
+	font-size: 10px;
+	margin-top: -60px;
+	padding-right: 1%;
+}
+
+.gap {
+	height: 60px;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.light-gray{
+	background-color: #e3e3e3;
+	padding-left: 2%;
+	padding-top: 2%;
+	padding-bottom: .5%;
+}
+
+#upcoming-events-container{
+	font-weight: bold;
+	font-size: 35px;
+	padding-left: 2%;
+	padding-top: 2%;
+	padding-bottom: .5%;
+	margin: 0px 0px 0px 0px;
+	background-color: #e3e3e3;
+}
+
+.dark-gray{
+	background-color: #cbcbcb;
+	padding-left: 2%;
+	padding-top: 2%;
+	padding-bottom: .5%;
+}
+
+.date-time{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.compeitition{
+	font-weight: bold;
+	font-size: 15px;
+	margin: -20px 0px 5px 0px;
+}
+
+.address {
+	font-size: 12px;
+	color: #ec008c;
+	margin-top: -6px;
+}
+
+
+#the-crew{
+	color: white;
+}
+
+
+
+#the-crew-container{
+	font-weight: bold;
+	font-size: 35px;
+	padding-left: 2%;
+	padding-top: 4%;
+	padding-bottom: 1.5%;
+	margin: 0px 0px 0px 0px;
+	background-color: #74134c;
+}
+
+
+.light-pink{
+	background-color: #912364;
+	overflow: auto;
+	padding-left: 2%;
+	padding-top: 2%;
+	padding-bottom: 2.6%;
+}
+
+.dark-pink{
+	background-color: #74134c;
+	overflow: auto;
+	padding-left: 2%;
+	padding-top: 2%;
+	padding-bottom: 2.6%;
+}
+
+.images{
+	clear: both;
+	float: left;
+	height: 70px;
+}
+
+.crew {
+	font-size: 15px;
+	margin: 0px 0px -3px 0px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.crew-info{
+	float: left;
+
+}
+
+.location{
+	font-size: 10px;
+	padding-left: 10px;
+}
+
+.dropdown-item{
+	background-color: #74134c; 
+}
+
+.navbar-default {
+     background-color: black;
+}
+
+@fontface {
+	font-family: Avenir;
+	src: url('../font/Avenir.ttc');
+}
+
+
+<--Tablet: Portrait-->
+@media screen and (max-width: 992px){
+	#crew-header{
+		font-size: 50px;
+	}
+	#crew-header-description{
+		font-size: 100px;
+	}
+	#copyright{
+		margin-top: -50px;
+	}
+	.gap{
+		height: 100px;
+	}
+}
+
+<--Mobile: Landscape-->
+@media screen and (max-width: 576px){
+	#crew-header{
+		font-size: 55px;
+	}
+	#crew-header-description{
+		font-size: 15px;
+	}
+	#copyright{
+		font-size: 8px;
+		margin-top: -100px;
+	}
+	.gap {
+		height: 20px;
+	}
+}
+
+
+
